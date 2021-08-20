@@ -24,3 +24,5 @@ let typedNick = new Typed(".nick-typing", {
     loop: true,
 });
 
+
+
