@@ -7,14 +7,30 @@
 }
 
 body {
-    background: white;
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
-/* Container Style */
-.container {
-    width: 70%;
+.page-container {
+    max-width: 1400px;
+}
+
+.img-container {
+    width: 100%;
+}
+
+.name h2 {
+    color:white;
+}
+
+.footer .fa {
+    font-size: 2rem;
+}
+
+.social {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
     margin: auto;
-    background: linear-gradient(to right, #92FE9D, #00C9FF);
-    border-radius: 10px;
-    min-height: 100vh;
 }
