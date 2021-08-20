@@ -34,3 +34,23 @@ body {
     justify-content: space-evenly;
     margin: auto;
 }
+
+.name-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.name-container h1 {
+    font-size: 4rem;
+}
+
+.name-container h3 {
+    font-size: 2rem;
+}
+
+.name-container h4 {
+    font-size: 1rem;
+}
